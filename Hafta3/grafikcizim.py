@@ -93,9 +93,9 @@ if __name__ == '__main__':
         maxsubsumOnlogn(circle[key])
         times['nlogn' + key] = time.time() - start
 
-        # start = time.time()
-        # maxsubsumOn3(circle[key])
-        # times['n3' + key] = time.time() - start
+        start = time.time()
+        maxsubsumOn3(circle[key])
+        times['n3' + key] = time.time() - start
 
         start = time.time()
         maxsubsumOn(circle[key])
