@@ -1,5 +1,5 @@
 def usAl(taban, us):
-    result = 1
+    sonuc = 1
     while us > 0:
         if us % 2 == 0:
             us = us / 2
