@@ -1,7 +1,7 @@
 import numpy as np
 a_matris = [[1,0,0],
-[0,1,0],
-[0,0,1]]
+            [0,1,0],
+            [0,0,1]]
 
 x_matris = []
 b_matris = [2, 4, 9]
